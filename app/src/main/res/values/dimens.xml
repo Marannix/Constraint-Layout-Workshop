@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Generic Dimensions-->
+  <dimen name="generic_padding_minimal">2dp</dimen>
+  <dimen name="generic_padding_smaller">3dp</dimen>
+  <dimen name="generic_padding_small">4dp</dimen>
+  <dimen name="generic_padding_smallish">5dp</dimen>
+  <dimen name="generic_padding_mid_small">6dp</dimen>
+  <dimen name="generic_padding_medium">8dp</dimen>
+  <dimen name="generic_padding_medium_extra">9dp</dimen>
+  <dimen name="generic_padding_med_large">10dp</dimen>
+  <dimen name="generic_padding_large">12dp</dimen>
+
+  <dimen name="generic_margin_smallish">5dp</dimen>
+  <dimen name="generic_margin_slightly_medium">6dp</dimen>
+  <dimen name="generic_margin_medium">8dp</dimen>
+  <dimen name="generic_margin_mid_medium">10dp</dimen>
+  <dimen name="generic_margin_large">12dp</dimen>
+  <dimen name="generic_margin_slightly_larger">14dp</dimen>
+  <dimen name="generic_margin_larger">15dp</dimen>
+  <dimen name="generic_margin_extra_large">16dp</dimen>
+  <dimen name="generic_margin_huge">20dp</dimen>
+
+  <dimen name="generic_text_size_small">14sp</dimen>
+  <dimen name="generic_text_size_smallish">15sp</dimen>
+  <dimen name="generic_text_size_medium">16sp</dimen>
+  <dimen name="generic_text_size_mediumish">17sp</dimen>
+  <dimen name="generic_text_size_large">18sp</dimen>
+
+  <dimen name="dashboard_rectangle_width">314dp</dimen>
+  <dimen name="dashboard_circle_margin_top">30dp</dimen>
+  <dimen name="dashboard_rectangle_radius">157dp</dimen>
+
+  <dimen name="main_course_dashboard_level_progress_size">95dp</dimen>
+  <dimen name="main_course_circle_count_size">48dp</dimen>
+
+</resources>

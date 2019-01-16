@@ -3,4 +3,13 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="main_course_level_items_title_shadow">#46000000</color>
+    <color name="main_course_level_free_title_colour">#eef3f8</color>
+    <color name="dashboard_progress_yellow_start">#FEC500</color>
+    <color name="dashboard_progress_yellow_end">#FFD954</color>
+    <color name="twenty_pct_transparent_black">#33000000</color>
+    <color name="main_course_green_dot">#0AA226</color>
+    <color name="thirty_pct_transparent_black">#4C000000</color>
+    <color name="pro_gradient_grobble_dark">#ea8800</color>
+    <color name="dashboard_blue">#3B7ACA</color>
 </resources>

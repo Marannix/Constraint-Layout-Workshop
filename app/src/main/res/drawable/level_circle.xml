@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:bottom="@dimen/generic_padding_medium"
+            android:left="@dimen/generic_padding_medium"
+            android:right="@dimen/generic_padding_medium"
+            android:top="@dimen/generic_padding_medium_extra">
+        <shape android:shape="oval">
+            <solid android:color="@color/thirty_pct_transparent_black"/>
+        </shape>
+
+    </item>
+    <item
+            android:bottom="@dimen/generic_padding_medium_extra"
+            android:left="@dimen/generic_padding_medium"
+            android:right="@dimen/generic_padding_medium"
+            android:top="@dimen/generic_padding_medium">
+        <shape android:shape="oval">
+            <solid android:color="@color/main_course_green_dot"/>
+        </shape>
+    </item>
+</layer-list>

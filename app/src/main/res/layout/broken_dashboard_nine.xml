@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clipChildren="false"
+        android:background="@color/dashboard_blue"
+>
+
+    <ImageView
+            android:id="@+id/main_course_level_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/generic_margin_medium"
+            android:layout_marginEnd="@dimen/generic_margin_medium"
+            android:layout_marginStart="@dimen/generic_margin_medium"
+            android:layout_marginTop="@dimen/generic_margin_medium"
+            android:background="@drawable/as_level_separator"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+    />
+
+    <ProgressBar
+            android:id="@+id/main_course_level_progress_bar"
+            android:layout_width="@dimen/main_course_dashboard_level_progress_size"
+            android:layout_height="@dimen/main_course_dashboard_level_progress_size"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="@dimen/generic_margin_medium"
+            android:layout_marginStart="@dimen/generic_margin_medium"
+            android:layout_marginTop="@dimen/generic_margin_large"
+            android:indeterminate="false"
+            android:max="100"
+            android:progressDrawable="@drawable/main_course_level_circle_progress_bar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_course_level_separator"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+    />
+
+    <ImageView
+            android:id="@+id/main_course_level_locked_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintEnd_toEndOf="@id/main_course_level_progress_bar"
+            app:layout_constraintBottom_toBottomOf="@+id/main_course_level_progress_bar"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_lock_mode_scb"
+            android:scaleType="centerInside"
+    />
+
+    <TextView
+            android:id="@+id/main_course_review_learn_count"
+            android:layout_width="@dimen/main_course_circle_count_size"
+            android:layout_height="@dimen/main_course_circle_count_size"
+            android:background="@drawable/level_circle"
+            android:gravity="center"
+            android:padding="@dimen/generic_padding_mid_small"
+            android:textColor="#ffffffff"
+            app:layout_constraintStart_toEndOf="@+id/main_course_level_progress_bar"
+            app:layout_constraintTop_toTopOf="@+id/main_course_level_progress_bar"
+            android:text="50"
+            tools:visibility="visible"
+    />
+
+    <TextView
+            android:id="@+id/main_course_review_difficult_count"
+            android:layout_width="@dimen/main_course_circle_count_size"
+            android:layout_height="@dimen/main_course_circle_count_size"
+            android:background="@drawable/review_circle"
+            android:gravity="center"
+            android:padding="@dimen/generic_padding_mid_small"
+            android:textColor="#ffffffff"
+            app:layout_constraintStart_toEndOf="@+id/main_course_level_progress_bar"
+            app:layout_constraintTop_toBottomOf="@+id/main_course_review_learn_count"
+            android:text="92"
+            tools:visibility="visible"
+    />
+
+    <TextView
+            android:id="@+id/main_course_level_items_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/generic_margin_medium"
+            android:layout_marginStart="@dimen/generic_margin_medium"
+            android:layout_marginTop="@dimen/generic_margin_slightly_medium"
+            android:gravity="center"
+            android:text="1 - Grammar"
+            android:paddingEnd="@dimen/generic_padding_med_large"
+            android:paddingStart="@dimen/generic_padding_med_large"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/main_course_level_items_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_course_level_progress_bar"
+    />
+
+    <TextView
+            android:id="@+id/main_course_level_items_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/generic_margin_medium"
+            android:layout_marginEnd="@dimen/generic_margin_medium"
+            android:layout_marginStart="@dimen/generic_margin_medium"
+            android:gravity="center"
+            android:lineSpacingExtra="4sp"
+            android:paddingEnd="@dimen/generic_padding_med_large"
+            android:paddingStart="@dimen/generic_padding_med_large"
+            android:shadowColor="@color/main_course_level_items_title_shadow"
+            android:shadowDy="2"
+            android:shadowRadius="4"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/main_course_level_free_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_course_level_items_mode"
+            android:text="@string/Random_text"
+    />
+
+    <TextView
+            android:id="@+id/main_course_level_free_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/generic_margin_medium"
+            android:layout_marginEnd="@dimen/generic_margin_medium"
+            android:layout_marginStart="@dimen/generic_margin_medium"
+            android:gravity="center"
+            android:padding="@dimen/generic_padding_med_large"
+            android:text="@string/dashboard_level_free"
+            android:textColor="@color/main_course_level_free_title_colour"
+            android:textSize="@dimen/generic_text_size_small"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    />
+
+</android.support.constraint.ConstraintLayout>

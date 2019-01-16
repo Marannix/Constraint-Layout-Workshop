@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Constraint Layout Workshop</string>
+  <string name="dashboard_level_free">Free Level</string>
+  <string name="Random_text">Constraint Layout in Japanese</string>
 </resources>
